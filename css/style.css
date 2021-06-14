@@ -577,6 +577,7 @@ button:hover {
   }
 }
 
+/* Mobile screen */
 @media screen and (max-width: 500px) {
   .ct3 {
     height: 100vh;
@@ -630,7 +631,7 @@ button:hover {
     margin-top: 10%;
   }
   .div .find_out {
-    margin-top: 80%;
+    margin-top: 90%;
     color: #fce762;
   }
 
