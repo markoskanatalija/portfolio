@@ -765,11 +765,13 @@ button:hover {
   .container .contact .txt {
     font-size: 20px;
   }
+  /* .container .contact br {
+    display: none;
+  } */
 
   .social i {
-    margin-left: 20px;
-    margin-top: 5%;
-    padding: 30px;
+    margin-left: 10px;
+    padding: 10px;
     font-size: 30px;
   }
 
