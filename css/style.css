@@ -4,6 +4,16 @@ body {
   color: #ffffff;
 }
 
+span {
+  font-size: 30px;
+  color: #fce762;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.contact .aboutme .txt a:hover {
+  color: #ffffff;
+}
+
 .logo {
   text-align: center;
   margin-top: 2%;
@@ -344,6 +354,9 @@ button:hover {
   height: 80px;
   margin-top: 20px;
   margin-left: -20px;
+}
+.illustr {
+  text-align: center;
 }
 .hero a {
   text-decoration: none;
