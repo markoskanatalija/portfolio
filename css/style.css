@@ -21,6 +21,7 @@ span {
 }
 
 .nav {
+  background-color: #121212;
   font-size: 26px;
   position: fixed;
   text-align: left;
@@ -315,7 +316,7 @@ span {
   padding-right: 5%;
 }
 
-button {
+input {
   border: 3px solid #fce762;
   font-size: 20px;
   color: #fce762;
@@ -346,7 +347,7 @@ a:hover {
   color: #fce762;
 }
 
-button:hover {
+input:hover {
   border: 3px solid #fce762;
   font-size: 20px;
   color: #121212;
@@ -476,7 +477,7 @@ button:hover {
 }
 
 /* Tablet screen */
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1290px) {
   .logo {
     text-align: center;
     margin-top: 10%;
