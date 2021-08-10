@@ -1,60 +1,405 @@
 body {
   margin: 0;
   background-color: #121212;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
-.project {
-  max-width: 100%;
-  max-height: 100%;
+.homepage a {
+  position: absolute;
+  color: #ffffff;
+  padding: 20px;
+  right: 0;
 }
 
-iframe {
-  height: 10000px;
+.backtotop {
+  position: fixed;
+  color: #ffffff;
+  /* background-color: #ffffff; */
+  padding: 20px;
+  font-size: 12px;
+  right: 0;
+  bottom: 0;
+}
+
+.backtotop i {
+  /* color: #ffffff; */
+  padding-right: 10px;
+}
+
+.backtotop a {
+  color: #ffffff;
+  /* padding-left: 10px; */
+}
+
+.hero {
+  text-align: center;
+}
+
+.h-logo {
+  width: 16%;
+  padding-top: 50px;
+}
+
+.h-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.h-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.h-left {
+  width: 50%;
+}
+
+.h-imgO {
+  width: 90%;
+}
+
+.h-right {
+  width: 50%;
+}
+
+.h-imgN {
+  width: 90%;
+}
+
+.challenge {
+  background-color: #414141;
+}
+
+.c-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.c-title {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.c-text {
+  padding: 50px 0px 100px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* text-align: left; */
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.c-role {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.c-textR {
+  padding: 50px 0px 100px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  line-height: 42px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.design-process {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.dp-container {
+  padding-left: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dp-title {
+  padding: 100px 0px 40px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.dp-left {
+  padding-bottom: 100px;
+  width: 50%;
+  font-size: 30px;
+}
+
+.dp-left li {
+  font-size: 20px;
+}
+
+.dp-left a {
+  color: #fff;
+}
+
+.dp-right {
+  padding-bottom: 100px;
+  width: 50%;
+  font-size: 30px;
+}
+.dp-right li {
+  font-size: 20px;
+}
+.dp-right a {
+  /* text-decoration: none; */
+  color: #ffffff;
+}
+
+.research {
+  background-color: #414141;
+}
+
+.r-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 100px;
+  color: #ffffff;
+}
+
+.r-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.comp-analysis {
+  /* display: flex;
+  justify-content: space-between; */
+  text-align: center;
+}
+
+.ca-title {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 30px;
+}
+
+.ca-img1 {
+  justify-content: center;
+  width: 15%;
+  padding-bottom: 20px;
+}
+
+.ca-first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.ca-strengths {
+  width: 50%;
+}
+
+.ca-weaknesses {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.ca-strengths-title {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.ca-listS {
+  text-align: left;
+}
+
+.ca-weaknesses-title {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.ca-listW {
+  text-align: left;
+}
+
+.ca-second {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.pers {
+  text-align: center;
+}
+
+.pers-title {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 30px;
+}
+
+.p-first {
+  margin-bottom: 30px;
+}
+
+.User-flow {
+  text-align: center;
+}
+
+.Uf-title {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 30px;
+}
+
+.Uf-img {
+  width: 90%;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.Design {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wire {
+  text-align: center;
+}
+
+.w-title {
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.w-titleD {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 30px;
+}
+
+.w-imgD {
   width: 100%;
 }
 
-.ext button {
-  position: fixed;
-  background-color: #ffe840;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 2% 2%;
-  font-weight: bold;
+.w-titleM {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0px;
+  font-size: 30px;
 }
 
-.figma_link button {
-  /* text-align: center; */
-  background-color: #ffe840;
-  border: none;
-  border-radius: 20px;
-  transform: translateX(400%);
-  width: 150px;
-  height: 50px;
-  font-weight: bold;
-  margin-bottom: 1%;
+.w-imgM {
+  width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-  .project {
-    max-width: 100%;
-    max-height: 100%;
+.userInterface {
+  text-align: center;
+}
+
+.ui-title {
+  font-size: 40px;
+  padding: 100px 0px 60px 0px;
+}
+
+.uid-title {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.uid-img {
+  width: 100%;
+}
+
+.uim-title {
+  font-size: 30px;
+  padding: 60px 0px;
+}
+
+.uim-img {
+  width: 100%;
+}
+
+.darkmode {
+  text-align: center;
+}
+
+.dm-title {
+  padding: 60px 0px 0px 0px;
+  font-size: 30px;
+}
+
+.dm-img {
+  width: 100%;
+}
+
+.style {
+  text-align: center;
+}
+.sg-title {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.sg-img {
+  width: 80%;
+  padding-bottom: 100px;
+}
+
+/* Laptop screen */
+@media screen and (max-width: 1600px) {
+  .h-content {
+    max-width: 1000px;
+    padding-top: 40px;
+    font-size: 26px;
   }
 
-  iframe {
-    height: 24000px;
-    width: 100%;
+  .c-container {
+    max-width: 1000px;
   }
 
-  button {
-    position: fixed;
-    background-color: #ffe840;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: 1% 1%;
-    font-weight: bold;
+  .c-title {
+    font-size: 40px;
+  }
+
+  .c-text {
+    font-size: 30px;
+  }
+
+  .design-process {
+    max-width: 1000px;
+  }
+
+  .dp-container {
+    padding-left: 180px;
+  }
+
+  .r-container {
+    max-width: 1200px;
+  }
+
+  .Design {
+    max-width: 1000px;
   }
 }
