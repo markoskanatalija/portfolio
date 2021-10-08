@@ -48,6 +48,18 @@ body {
   border: none;
 }
 
+.backtotopM {
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 94%;
+  left: 94%;
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+
 .back {
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -568,6 +580,16 @@ body {
   width: 76%;
 }
 
+.ui__blue {
+  font-weight: bolder;
+  color: #1f2d48;
+}
+
+.ui__yellow {
+  font-weight: bolder;
+  color: #edf71a;
+}
+
 .style {
   position: relative;
   height: 100vh;
@@ -643,6 +665,12 @@ body {
 }
 
 @media (max-width: 440px) {
+  .backtotop {
+    display: none;
+  }
+  .backtotopM {
+    display: block;
+  }
   .heroV {
     width: 300px;
   }
@@ -691,6 +719,10 @@ body {
   .intro__rightFS {
     width: 100%;
   }
+  .intro__line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .intro__title {
     margin-bottom: 16px;
     font-size: 18px;
@@ -699,23 +731,19 @@ body {
     margin-bottom: 16px;
   }
   .intro__text {
-    font-size: 16px;
+    font-size: 14px;
   }
   .intro__label {
     font-size: 10px;
   }
-  .intro__line {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
   .intro__member {
-    font-size: 16px;
+    font-size: 14px;
   }
   .intro__brand {
-    font-size: 16px;
+    font-size: 14px;
   }
   .intro__tool {
-    font-size: 16px;
+    font-size: 14px;
   }
   .intro__small {
     margin-right: -4px;
@@ -727,7 +755,7 @@ body {
         -ms-flex-pack: start;
             justify-content: flex-start;
     gap: 9px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .analysis {
     width: 300px;
@@ -749,6 +777,12 @@ body {
     width: 100%;
     text-align: center;
   }
+  .analysis__midF {
+    width: 45%;
+  }
+  .analysis__rightF {
+    width: 45%;
+  }
   .analysis__logo {
     width: 20%;
   }
@@ -760,6 +794,10 @@ body {
   }
   .analysis__item {
     font-size: 11px;
+  }
+  .analysis__line {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .personas {
     width: 300px;
@@ -833,6 +871,12 @@ body {
 }
 
 @media (min-width: 441px) and (max-width: 650px) {
+  .backtotop {
+    display: none;
+  }
+  .backtotopM {
+    display: block;
+  }
   .heroV {
     width: 400px;
   }

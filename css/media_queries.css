@@ -144,7 +144,7 @@
     margin-left: 0;
   }
   .hero__more {
-    width: 100%;
+    left: 18%;
   }
   .hero__moreS {
     font-size: 18px;
@@ -394,7 +394,7 @@
     margin-left: 0;
   }
   .hero__more {
-    width: 100%;
+    left: 20%;
   }
   .hero__moreS {
     font-size: 20px;
@@ -605,6 +605,9 @@
   }
   .hero__right {
     width: 50%;
+  }
+  .hero__more {
+    left: 31%;
   }
   .hero__moreS {
     font-size: 20px;
@@ -920,6 +923,9 @@
   }
   .aboutme__s {
     font-size: 16px;
+  }
+  .aboutme__leftS {
+    width: 45%;
   }
   .projects {
     width: 800px;

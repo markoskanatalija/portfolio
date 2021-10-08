@@ -151,7 +151,8 @@
     }
 
     &__more {
-      width: 100%;
+      // width: 100%;
+      left: 18%;
     }
 
     &__moreS {
@@ -428,7 +429,8 @@
     }
 
     &__more {
-      width: 100%;
+      // width: 100%;
+      left: 20%;
     }
 
     &__moreS {
@@ -664,6 +666,10 @@
 
     &__right {
       width: 50%;
+    }
+
+    &__more {
+      left: 31%;
     }
 
     &__moreS {
@@ -1043,6 +1049,10 @@
 
     &__s {
       font-size: 16px;
+    }
+
+    &__leftS {
+      width: 45%;
     }
   }
 
