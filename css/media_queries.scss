@@ -1,0 +1,1089 @@
+@media (max-width: 440px) {
+  .navigation {
+    display: none;
+  }
+
+  .navMobile {
+    display: block;
+    position: sticky;
+    top: 0%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 26px;
+    background-color: #121212;
+  }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 2%;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .menuToggle a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+
+  .menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  .menuToggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #fce762;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  .menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  .menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  .menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #ffffff;
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  .menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  .menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #121212;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  .menu .navigation_li {
+    padding: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .hero {
+    width: 300px;
+    text-align: center;
+
+    &__content {
+      flex-wrap: wrap;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &__name {
+      width: 100%;
+      font-size: 26px;
+    }
+
+    &__profession {
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 65%;
+    }
+
+    &__right {
+      margin: 0 auto;
+    }
+
+    &__left {
+      width: 100%;
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    &__more {
+      width: 100%;
+    }
+
+    &__moreS {
+      font-size: 18px;
+    }
+
+    &__logo {
+      font-size: 18px;
+    }
+
+    &__line {
+      width: 246px;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .aboutme {
+    width: 300px;
+    margin: 0 auto;
+
+    &__img {
+      width: 70%;
+    }
+
+    &__first {
+      flex-wrap: wrap;
+      gap: 1px;
+    }
+
+    &__leftF {
+      width: 30%;
+      padding-left: 0px;
+      margin: 0 auto;
+    }
+
+    &__rightF {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    &__bio {
+      font-size: 14px;
+    }
+
+    &__second {
+      flex-wrap: wrap;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    &__leftS {
+      width: 100%;
+    }
+
+    &__right {
+      width: 100%;
+    }
+
+    &__itemEducation {
+      font-size: 14px;
+    }
+
+    &__itemExperience {
+      font-size: 14px;
+    }
+
+    &__skills {
+      gap: 0;
+      align-items: normal;
+    }
+
+    &__s {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+
+  .projects {
+    width: 300px;
+
+    &__a {
+      width: 80%;
+    }
+
+    &__content {
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+
+  .contact {
+    width: 300px;
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__dis {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    &__title1 {
+      font-size: 18px;
+    }
+
+    &__email {
+      font-size: 14px;
+    }
+
+    &__social {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 441px) and (max-width: 650px) {
+  .navigation {
+    display: none;
+  }
+
+  .navMobile {
+    display: block;
+    position: sticky;
+    top: 0%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 26px;
+    background-color: #121212;
+  }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 2%;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .menuToggle a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+
+  .menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  .menuToggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #fce762;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  .menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  .menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  .menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #ffffff;
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  .menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  .menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #121212;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  .menu .navigation_li {
+    padding: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .hero {
+    width: 400px;
+    text-align: center;
+
+    &__content {
+      flex-wrap: wrap;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &__name {
+      width: 100%;
+      font-size: 30px;
+    }
+
+    &__profession {
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    &__img {
+      width: 65%;
+    }
+
+    &__right {
+      margin: 0 auto;
+    }
+
+    &__left {
+      width: 100%;
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    &__more {
+      width: 100%;
+    }
+
+    &__moreS {
+      font-size: 20px;
+    }
+
+    &__logo {
+      font-size: 20px;
+    }
+
+    &__line {
+      width: 246px;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .aboutme {
+    width: 400px;
+
+    &__img {
+      width: 100%;
+    }
+
+    &__leftF {
+      width: 30%;
+      padding-left: 40px;
+    }
+
+    &__rightF {
+      width: 83%;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__bio {
+      font-size: 15px;
+    }
+
+    &__second {
+      margin-top: 30px;
+    }
+
+    &__itemEducation {
+      font-size: 15px;
+    }
+
+    &__itemExperience {
+      font-size: 15px;
+    }
+
+    &__skills {
+      gap: 0;
+      align-items: normal;
+    }
+
+    &__s {
+      font-size: 15px;
+      width: 100%;
+    }
+  }
+
+  .projects {
+    width: 400px;
+
+    &__content {
+      justify-content: center;
+      gap: 45px;
+    }
+  }
+
+  .contact {
+    width: 400px;
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__title1 {
+      font-size: 18px;
+    }
+
+    &__email {
+      font-size: 16px;
+    }
+
+    &__social {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 651px) and (max-width: 840px) {
+  .navigation {
+    display: none;
+  }
+
+  .navMobile {
+    display: block;
+    position: sticky;
+    top: 0%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 26px;
+    background-color: #121212;
+  }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 2%;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .menuToggle a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+
+  .menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  .menuToggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #fce762;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  .menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  .menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  .menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #ffffff;
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  .menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  .menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #121212;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  .menu .navigation_li {
+    padding: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .hero {
+    width: 600px;
+
+    &__name {
+      font-size: 30px;
+    }
+
+    &__profession {
+      font-size: 18px;
+    }
+
+    &__img {
+      width: 94%;
+    }
+
+    &__left {
+      width: 50%;
+      margin-top: 8%;
+      margin-right: 0;
+      margin-left: 40px;
+    }
+
+    &__right {
+      width: 50%;
+    }
+
+    &__moreS {
+      font-size: 20px;
+    }
+
+    &__logo {
+      font-size: 20px;
+    }
+
+    &__line {
+      width: 246px;
+    }
+  }
+
+  .aboutme {
+    width: 600px;
+
+    &__img {
+      width: 80%;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__bio {
+      font-size: 16px;
+    }
+
+    &__second {
+      margin-top: 30px;
+    }
+
+    &__itemEducation {
+      font-size: 16px;
+    }
+
+    &__itemExperience {
+      font-size: 16px;
+    }
+
+    &__skills {
+      gap: 0;
+    }
+
+    &__s {
+      font-size: 16px;
+      width: 100%;
+    }
+  }
+
+  .projects {
+    width: 600px;
+
+    &__content {
+      gap: 60px;
+    }
+  }
+
+  .contact {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__title1 {
+      font-size: 20px;
+    }
+
+    &__email {
+      font-size: 18px;
+    }
+
+    &__social {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 841px) and (max-width: 1024px) {
+  .navMobile {
+    display: block;
+    position: sticky;
+    top: 0%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 26px;
+    background-color: #121212;
+  }
+
+  .menuToggle {
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 2%;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .menuToggle a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+
+  .menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  .menuToggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #fce762;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  .menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  .menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  .menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #ffffff;
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  .menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  .menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  .menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #121212;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  .menu .navigation_li {
+    padding: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hero {
+    width: 800px;
+
+    &__name {
+      font-size: 40px;
+    }
+
+    &__profession {
+      font-size: 28px;
+    }
+
+    &__img {
+      width: 90%;
+    }
+
+    &__left {
+      width: 50%;
+      margin-top: 10%;
+      margin-right: 0;
+      margin-left: 40px;
+    }
+
+    &__right {
+      width: 50%;
+    }
+
+    &__moreS {
+      font-size: 20px;
+    }
+
+    &__logo {
+      font-size: 20px;
+    }
+  }
+
+  .aboutme {
+    width: 800px;
+
+    &__img {
+      width: 90%;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__bio {
+      font-size: 20px;
+    }
+
+    &__second {
+      margin-top: 30px;
+    }
+
+    &__itemEducation {
+      font-size: 20px;
+    }
+
+    &__itemExperience {
+      font-size: 20px;
+    }
+
+    &__skills {
+      gap: 10%;
+    }
+
+    &__s {
+      font-size: 16px;
+    }
+  }
+
+  .projects {
+    width: 800px;
+
+    &__content {
+      gap: 80px;
+    }
+  }
+
+  .contact {
+    width: 800px;
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__title1 {
+      font-size: 26px;
+    }
+
+    &__email {
+      font-size: 24px;
+    }
+
+    &__social {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .navigation {
+    font-size: 20px;
+
+    &__li {
+      margin-left: 0px;
+    }
+
+    &__ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+  }
+
+  .hero {
+    width: 800px;
+
+    &__name {
+      font-size: 40px;
+    }
+
+    &__profession {
+      font-size: 28px;
+    }
+
+    &__img {
+      width: 90%;
+    }
+
+    &__left {
+      width: 50%;
+      margin-top: 10%;
+      margin-right: 0;
+      margin-left: 40px;
+    }
+
+    &__right {
+      width: 50%;
+    }
+
+    &__moreS {
+      font-size: 20px;
+    }
+
+    &__logo {
+      font-size: 20px;
+    }
+  }
+
+  .aboutme {
+    width: 800px;
+
+    &__img {
+      width: 90%;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__bio {
+      font-size: 20px;
+    }
+
+    &__second {
+      margin-top: 30px;
+    }
+
+    &__itemEducation {
+      font-size: 20px;
+    }
+
+    &__itemExperience {
+      font-size: 20px;
+    }
+
+    &__skills {
+      gap: 10%;
+    }
+
+    &__s {
+      font-size: 16px;
+    }
+  }
+
+  .projects {
+    width: 800px;
+
+    &__content {
+      gap: 80px;
+    }
+  }
+
+  .contact {
+    width: 800px;
+
+    &__title {
+      font-size: 30px;
+    }
+
+    &__title1 {
+      font-size: 26px;
+    }
+
+    &__email {
+      font-size: 24px;
+    }
+
+    &__social {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1919px) {
+  .navigation {
+    font-size: 26px;
+
+    &__li {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+}
