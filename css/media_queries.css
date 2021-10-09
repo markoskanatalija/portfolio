@@ -220,6 +220,9 @@
   .projects__a {
     width: 80%;
   }
+  .projects__aWp, .projects__aSH, .projects__aSHW, .projects__aW {
+    width: 80%;
+  }
   .projects__content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
