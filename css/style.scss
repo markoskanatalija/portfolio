@@ -385,6 +385,7 @@ body {
   &__dis {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
   }
 
   &__email {
@@ -412,6 +413,18 @@ body {
 
     &:hover {
       color: #ffffff;
+    }
+  }
+
+  &__storyset {
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    color: #fce76280;
+
+    &:hover {
+      color: #d0d0d0;
     }
   }
 }

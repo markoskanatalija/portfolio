@@ -416,6 +416,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .contact__email {
@@ -449,6 +450,18 @@ body {
 
 .contact__social:hover {
   color: #ffffff;
+}
+
+.contact__storyset {
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  color: #fce76280;
+}
+
+.contact__storyset:hover {
+  color: #d0d0d0;
 }
 
 @media (max-width: 440px) {
