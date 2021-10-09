@@ -1,0 +1,1305 @@
+@media (max-width: 440px) {
+  .backtotop {
+    display: none;
+  }
+
+  .backtotopM {
+    display: block;
+  }
+
+  .heroV {
+    width: 300px;
+
+    &__logo {
+      margin-bottom: 30px;
+    }
+
+    &__imgL {
+      width: 34%;
+    }
+
+    &__description {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 19px;
+    }
+
+    &__title {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    &__left {
+      flex-wrap: wrap;
+      // justify-content: center;
+      gap: 10px;
+    }
+
+    &__imagesL,
+    &__imagesR {
+      width: 100%;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 200px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 20%;
+    }
+  }
+
+  .intro {
+    width: 300px;
+
+    &__firstSection {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    &__leftFS {
+      width: 100%;
+    }
+
+    &__rightFS {
+      width: 100%;
+    }
+
+    &__line {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+
+    &__title1 {
+      margin-bottom: 16px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+
+    &__label {
+      font-size: 10px;
+    }
+
+    &__member {
+      font-size: 14px;
+    }
+
+    // &__item {
+    //   width: 16%;
+    // }
+
+    &__brand {
+      font-size: 14px;
+    }
+
+    &__tool {
+      font-size: 14px;
+    }
+
+    &__small {
+      margin-right: -4px;
+    }
+
+    &__process {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 9px;
+      font-size: 12px;
+    }
+  }
+
+  .analysis {
+    width: 300px;
+
+    &__first {
+      flex-wrap: wrap;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    &__text {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+
+    &__leftF {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__midF {
+      width: 45%;
+    }
+
+    &__rightF {
+      width: 45%;
+    }
+
+    &__logo {
+      width: 20%;
+    }
+
+    &__first {
+      gap: 10px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__item {
+      font-size: 11px;
+    }
+
+    &__line {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .personas {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .wireframes {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .conclusion {
+    width: 300px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 441px) and (max-width: 650px) {
+  .backtotop {
+    display: none;
+  }
+
+  .backtotopM {
+    display: block;
+  }
+
+  .heroV {
+    width: 400px;
+
+    &__logo {
+      margin-bottom: 30px;
+    }
+
+    &__imgL {
+      width: 34%;
+    }
+
+    &__description {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 23px;
+    }
+
+    &__title {
+      width: 100%;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+
+    &__left {
+      flex-wrap: wrap;
+      // justify-content: center;
+      width: 100%;
+      gap: 10px;
+    }
+
+    &__imagesL,
+    &__imagesR {
+      width: 100%;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 240px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 16%;
+    }
+  }
+
+  .intro {
+    width: 400px;
+
+    &__firstSection {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    &__leftFS {
+      width: 100%;
+    }
+
+    &__rightFS {
+      width: 100%;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+
+    &__title1 {
+      margin-bottom: 16px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__label {
+      font-size: 10px;
+    }
+
+    &__line {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    &__member {
+      font-size: 16px;
+    }
+
+    // &__item {
+    //   width: 16%;
+    // }
+
+    &__brand {
+      font-size: 16px;
+    }
+
+    &__tool {
+      font-size: 16px;
+    }
+
+    &__small {
+      margin-right: -4px;
+    }
+
+    &__process {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 9px;
+      font-size: 14px;
+    }
+  }
+
+  .analysis {
+    width: 400px;
+
+    &__first {
+      flex-wrap: wrap;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    &__leftF {
+      width: 20%;
+    }
+
+    &__logo {
+      width: 100%;
+    }
+
+    &__first {
+      gap: 10px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__item {
+      font-size: 11px;
+    }
+  }
+
+  .personas {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .wireframes {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .conclusion {
+    width: 400px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 651px) and (max-width: 840px) {
+  .heroV {
+    width: 600px;
+
+    &__logo {
+      margin-bottom: 30px;
+    }
+
+    &__imgL {
+      width: 20%;
+    }
+
+    &__description {
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+
+    &__left {
+      gap: 30px;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 240px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 16%;
+    }
+  }
+
+  .intro {
+    width: 600px;
+
+    &__firstSection {
+      gap: 40px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 20px;
+    }
+
+    &__title1 {
+      margin-bottom: 18px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    &__label {
+      font-size: 12px;
+    }
+
+    &__line {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    &__member {
+      font-size: 18px;
+    }
+
+    // &__item {
+    //   width: 16%;
+    // }
+
+    &__brand {
+      font-size: 18px;
+    }
+
+    &__tool {
+      font-size: 18px;
+    }
+
+    &__small {
+      margin-right: -4px;
+    }
+
+    &__process {
+      font-size: 15px;
+    }
+  }
+
+  .analysis {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__leftF {
+      width: 30%;
+    }
+
+    &__first {
+      gap: 10px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__item {
+      font-size: 14px;
+    }
+  }
+
+  .personas {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .wireframes {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 60%;
+    }
+  }
+
+  .conclusion {
+    width: 600px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 841px) and (max-width: 1024px) {
+  .heroV {
+    width: 800px;
+
+    &__logo {
+      margin-bottom: 40px;
+    }
+
+    &__imgL {
+      width: 20%;
+    }
+
+    &__description {
+      margin-bottom: 20px;
+      font-size: 40px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 24px;
+    }
+
+    &__left {
+      gap: 50px;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 300px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 20%;
+    }
+  }
+
+  .intro {
+    width: 800px;
+
+    &__firstSection {
+      gap: 80px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 26px;
+    }
+
+    &__title1 {
+      margin-bottom: 24px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__line {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    &__member {
+      font-size: 20px;
+    }
+
+    // &__item {
+    //   width: 16%;
+    // }
+
+    &__brand {
+      font-size: 20px;
+    }
+
+    &__tool {
+      font-size: 20px;
+    }
+
+    &__small {
+      margin-right: -24px;
+    }
+
+    &__process {
+      font-size: 18px;
+    }
+  }
+
+  .analysis {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 2px;
+    }
+
+    &__leftF {
+      width: 30%;
+    }
+
+    &__first {
+      gap: 30px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+    }
+
+    &__item {
+      font-size: 16px;
+    }
+  }
+
+  .personas {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+  }
+
+  .wireframes {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+
+  .conclusion {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .heroV {
+    width: 800px;
+
+    &__logo {
+      margin-bottom: 40px;
+    }
+
+    &__imgL {
+      width: 26%;
+    }
+
+    &__description {
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 24px;
+    }
+
+    &__left {
+      gap: 60px;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 380px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 20%;
+    }
+  }
+
+  .intro {
+    width: 800px;
+
+    &__firstSection {
+      gap: 80px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 26px;
+    }
+
+    &__title1 {
+      margin-bottom: 24px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__line {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    &__member {
+      font-size: 20px;
+    }
+
+    // &__item {
+    //   width: 16%;
+    // }
+
+    &__brand {
+      font-size: 20px;
+    }
+
+    &__tool {
+      font-size: 20px;
+    }
+
+    &__small {
+      margin-right: -24px;
+    }
+
+    &__process {
+      font-size: 18px;
+    }
+  }
+
+  .analysis {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    &__leftF {
+      width: 30%;
+    }
+
+    &__first {
+      gap: 30px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+    }
+
+    &__item {
+      font-size: 16px;
+    }
+  }
+
+  .personas {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+  }
+
+  .wireframes {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+
+  .conclusion {
+    width: 800px;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1919px) {
+  .heroV {
+    &__logo {
+      margin-bottom: 40px;
+    }
+
+    &__imgL {
+      width: 26%;
+    }
+
+    &__description {
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+
+    &__title {
+      margin-bottom: 16px;
+      font-size: 24px;
+    }
+
+    &__left {
+      gap: 60px;
+    }
+
+    &__image1,
+    &__image3 {
+      width: 380px;
+      height: auto;
+    }
+
+    &__image2,
+    &__image4 {
+      width: 20%;
+    }
+  }
+
+  .intro {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__member {
+      font-size: 22px;
+    }
+
+    &__process {
+      font-size: 22px;
+    }
+  }
+
+  .analysis {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__subtitle {
+      font-size: 22px;
+    }
+
+    &__item {
+      font-size: 18px;
+    }
+  }
+
+  .personas {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .flow {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+  }
+
+  .wireframes {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .ui {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 88%;
+      height: auto;
+    }
+  }
+
+  .style {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+
+  .conclusion {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+}

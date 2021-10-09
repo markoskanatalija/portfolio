@@ -134,8 +134,8 @@ body {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
   }
 }
 
@@ -145,8 +145,8 @@ body {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
   }
 }
 
@@ -334,6 +334,40 @@ body {
 
 .projects__a {
   width: 45%;
+}
+
+.projects__aW {
+  width: 45%;
+}
+
+.projects__aW:hover {
+  display: none;
+}
+
+.projects__aW:hover + .projects__aWP {
+  display: block;
+}
+
+.projects__aSH {
+  width: 45%;
+}
+
+.projects__aSH:hover {
+  display: none;
+}
+
+.projects__aSH:hover + .projects__aSHW {
+  display: block;
+}
+
+.projects__aSHW {
+  width: 45%;
+  display: none;
+}
+
+.projects__aWP {
+  width: 45%;
+  display: none;
 }
 
 .projects__img:hover {

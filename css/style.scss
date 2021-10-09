@@ -126,7 +126,7 @@ body {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-4px);
   }
 }
 @keyframes mover {
@@ -134,7 +134,7 @@ body {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-4px);
   }
 }
 
@@ -307,6 +307,40 @@ body {
 
   &__a {
     width: 45%;
+  }
+
+  &__aW {
+    width: 45%;
+
+    &:hover {
+      display: none;
+    }
+  }
+
+  &__aW:hover + &__aWP {
+    display: block;
+  }
+
+  &__aSH {
+    width: 45%;
+
+    &:hover {
+      display: none;
+    }
+  }
+
+  &__aSH:hover + &__aSHW {
+    display: block;
+  }
+
+  &__aSHW {
+    width: 45%;
+    display: none;
+  }
+
+  &__aWP {
+    width: 45%;
+    display: none;
   }
 
   &__img:hover {
