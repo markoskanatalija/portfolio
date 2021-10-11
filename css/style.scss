@@ -51,10 +51,6 @@ body {
   }
 }
 
-.navMobile {
-  display: none;
-}
-
 .hero {
   position: relative;
   height: 100vh;
@@ -272,7 +268,7 @@ body {
     // width: 50%;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    // font-weight: bolder;
+    font-weight: 500;
     text-decoration: none;
     color: #ffffff;
 
