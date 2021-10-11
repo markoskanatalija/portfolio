@@ -161,7 +161,6 @@
         </div>
     </div>
     <div class="lineV"></div>
-
     <div class="flow" id="flow">
       <div class="flow__content">
         <div class="flow__title">user flow</div>
@@ -176,27 +175,11 @@
         <div class="wireframes__text">We created responsive wireframes for VidiVaka to organize content and features to be more intuitive for the users. We tried to make the first fold welcoming for everyday users and the users that are first time on this website.</div>
         <div class="wireframes__section">
           <img class="wireframes__img" id="wireframe" src="./img/wireframes_desktop_vidivaka.png">
-          <div class="wireframes__button" id="wire">
+          <div class="wireframes__button" id="wireDiv">
             <button class="wireframes__btn active" onclick="document.getElementById('wireframe').src='./img/wireframes_desktop_vidivaka.png'"></button>
             <button class="wireframes__btn" onclick="document.getElementById('wireframe').src='./img/wireframes_mobile_vidivaka.png'"></button>
-           
           </div>
         </div>
-          <!-- <div class="wireframes__mobile">
-            <div class="wireframes__subtitle">mobile</div>
-            <div class="wireframes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra lobortis venenatis pharetra. Pellentesque nibh tincidunt condimentum adipiscing ac quis velit. Turpis nunc consequat rhoncus enim amet, quis nunc. Convallis est a quis laoreet.</div>
-            <div class="wireframes__images">
-              <img class="wireframes__img" src="./img/wireframes_mobile_vidivaka.png"> 
-            </div>
-          </div> -->
-        
-          <!-- <div class="wireframes__desktop">
-            <div class="wireframes__subtitle">desktop</div>
-              <div class="wireframes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra lobortis venenatis pharetra. Pellentesque nibh tincidunt condimentum adipiscing ac quis velit. Turpis nunc consequat rhoncus enim amet, quis nunc. Convallis est a quis laoreet.</div>
-              <div class="wireframes__images">
-                <img class="wireframes__img" src="./img/wireframes_desktop_vidivaka.png"> 
-              </div>
-          </div> -->
       </div>
     </div>
     <div class="lineV"></div>
@@ -206,28 +189,12 @@
         <div class="ui__text">These are some of the features that we designed for VidiVaka in desktop and moblie versions. For the UI we decided to use blue (<span class="ui__blue">#1F2D48</span>) as a primary color and yellow (<span class="ui__yellow">#EDF71A</span>) as a secondary. This two colors are used in VidiVaka branding.</div>
         <div class="ui__section">
           <img class="ui__img" id="uiDesgin" src="./img/ui_desktop_vidivaka.png">
-          <div class="ui__button">
-            <button class="ui__btn active" id="uiDIV" onclick="document.getElementById('uiDesgin').src='./img/ui_desktop_vidivaka.png'"></button>
-            <button class="ui__btn" id="uiDIV" onclick="document.getElementById('uiDesgin').src='./img/ui_mobile_vidivaka.png'"></button>
-            <button class="ui__btn" id="uiDIV" onclick="document.getElementById('uiDesgin').src='./img/dark_mode.png'"></button>
-            
-          
+          <div class="ui__button" id="uiDiv">
+            <button class="ui__btn active" onclick="document.getElementById('uiDesgin').src='./img/ui_desktop_vidivaka.png'"></button>
+            <button class="ui__btn" onclick="document.getElementById('uiDesgin').src='./img/ui_mobile_vidivaka.png'"></button>
+            <button class="ui__btn" onclick="document.getElementById('uiDesgin').src='./img/dark_mode.png'"></button>
           </div>
         </div>
-          <!-- <div class="ui__mobile">
-            <div class="ui__subtitle">mobile</div>
-            <div class="ui__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra lobortis venenatis pharetra. Pellentesque nibh tincidunt condimentum adipiscing ac quis velit. Turpis nunc consequat rhoncus enim amet, quis nunc. Convallis est a quis laoreet.</div>
-            <div class="ui__images">
-              <img class="ui__img" src="./img/ui_mobile_vidivaka.png"> 
-            </div>
-          </div> -->
-          <!-- <div class="ui__desktop">
-            <div class="ui__subtitle">desktop</div>
-              <div class="ui__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra lobortis venenatis pharetra. Pellentesque nibh tincidunt condimentum adipiscing ac quis velit. Turpis nunc consequat rhoncus enim amet, quis nunc. Convallis est a quis laoreet.</div>
-              <div class="ui__images">
-                <img class="ui__img" src="./img/ui_desktop_vidivaka.png"> 
-              </div>
-          </div> -->
       </div>
     </div>
     <div class="lineV"></div>
@@ -258,17 +225,40 @@
     for (var i = 0; i < btns.length; i++) {
       btns[i].addEventListener("click", function() {
       var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
+      current[0].className = current[0].className.replace("active", "");
       this.className += " active";
     });
   } 
   </script>
 
-  <script>
-    $('#myCarousel').carousel({
-      interval: 4000
-    })
-  </script>
+
+<script>
+  var scr = document.getElementById("wireDiv");
+  
+  var btn = scr.getElementsByClassName("wireframes__btn");
+  
+  for (var i = 0; i < btn.length; i++) {
+    btn[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "");
+    this.className += " active";
+  });
+} 
+</script>
+
+<script>
+  var script = document.getElementById("uiDiv");
+  
+  var button = script.getElementsByClassName("ui__btn");
+  
+  for (var i = 0; i < button.length; i++) {
+    button[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active", "");
+    this.className += " active";
+  });
+} 
+</script>
 
 
   <script>

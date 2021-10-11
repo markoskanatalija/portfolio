@@ -240,6 +240,10 @@
   .projects {
     width: 300px;
 
+    &__title {
+      font-size: 18px;
+    }
+
     &__a {
       width: 80%;
     }
@@ -506,6 +510,10 @@
   .projects {
     width: 400px;
 
+    &__title {
+      font-size: 18px;
+    }
+
     &__content {
       justify-content: center;
       gap: 45px;
@@ -732,6 +740,10 @@
   .projects {
     width: 600px;
 
+    &__title {
+      font-size: 20px;
+    }
+
     &__content {
       gap: 60px;
     }
@@ -948,6 +960,10 @@
   .projects {
     width: 800px;
 
+    &__title {
+      font-size: 30px;
+    }
+
     &__content {
       gap: 80px;
     }
@@ -1065,6 +1081,10 @@
 
   .projects {
     width: 800px;
+
+    &__title {
+      font-size: 30px;
+    }
 
     &__content {
       gap: 80px;

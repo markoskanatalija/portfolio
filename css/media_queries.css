@@ -217,6 +217,9 @@
   .projects {
     width: 300px;
   }
+  .projects__title {
+    font-size: 18px;
+  }
   .projects__a {
     width: 80%;
   }
@@ -452,6 +455,9 @@
   .projects {
     width: 400px;
   }
+  .projects__title {
+    font-size: 18px;
+  }
   .projects__content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -652,6 +658,9 @@
   .projects {
     width: 600px;
   }
+  .projects__title {
+    font-size: 20px;
+  }
   .projects__content {
     gap: 60px;
   }
@@ -842,6 +851,9 @@
   .projects {
     width: 800px;
   }
+  .projects__title {
+    font-size: 30px;
+  }
   .projects__content {
     gap: 80px;
   }
@@ -932,6 +944,9 @@
   }
   .projects {
     width: 800px;
+  }
+  .projects__title {
+    font-size: 30px;
   }
   .projects__content {
     gap: 80px;

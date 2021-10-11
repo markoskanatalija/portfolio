@@ -40,6 +40,14 @@ body {
     &:hover {
       color: #fce762;
     }
+
+    &:focus {
+      color: #fce762;
+    }
+
+    &:active {
+      color: #fce762;
+    }
   }
 }
 
@@ -303,6 +311,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 120px;
+  }
+
+  &__title {
+    display: block;
+    width: 100%;
+    font-size: 38px;
+    font-family: "Rubik", sans-serif;
+    color: #fce762;
   }
 
   &__a {

@@ -46,6 +46,14 @@ body {
   color: #fce762;
 }
 
+.navigation__item:focus {
+  color: #fce762;
+}
+
+.navigation__item:active {
+  color: #fce762;
+}
+
 .navMobile {
   display: none;
 }
@@ -330,6 +338,14 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 120px;
+}
+
+.projects__title {
+  display: block;
+  width: 100%;
+  font-size: 38px;
+  font-family: "Rubik", sans-serif;
+  color: #fce762;
 }
 
 .projects__a {
@@ -683,6 +699,9 @@ body {
   .projects {
     width: 300px;
   }
+  .projects__title {
+    font-size: 18px;
+  }
   .projects__a {
     width: 80%;
   }
@@ -918,6 +937,9 @@ body {
   .projects {
     width: 400px;
   }
+  .projects__title {
+    font-size: 18px;
+  }
   .projects__content {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1118,6 +1140,9 @@ body {
   .projects {
     width: 600px;
   }
+  .projects__title {
+    font-size: 20px;
+  }
   .projects__content {
     gap: 60px;
   }
@@ -1308,6 +1333,9 @@ body {
   .projects {
     width: 800px;
   }
+  .projects__title {
+    font-size: 30px;
+  }
   .projects__content {
     gap: 80px;
   }
@@ -1398,6 +1426,9 @@ body {
   }
   .projects {
     width: 800px;
+  }
+  .projects__title {
+    font-size: 30px;
   }
   .projects__content {
     gap: 80px;
