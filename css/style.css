@@ -89,6 +89,18 @@ body {
   margin-right: 120px;
 }
 
+.hero__freepik {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  text-align: end;
+  color: #ffffff80;
+  text-decoration: none;
+}
+
+.hero__blue {
+  color: #2e70ffd2;
+}
+
 .hero__name {
   font-size: 60px;
   font-family: "Rubik", sans-serif;
@@ -429,7 +441,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 200px;
 }
 
 .contact__email {
@@ -615,6 +626,9 @@ body {
   }
   .hero__right {
     margin: 0 auto;
+  }
+  .hero__freepik {
+    text-align: center;
   }
   .hero__left {
     width: 100%;
@@ -865,6 +879,9 @@ body {
   .hero__profession {
     margin-bottom: 30px;
     font-size: 18px;
+  }
+  .hero__freepik {
+    text-align: center;
   }
   .hero__img {
     width: 65%;

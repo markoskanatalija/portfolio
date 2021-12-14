@@ -137,6 +137,9 @@
   .hero__right {
     margin: 0 auto;
   }
+  .hero__freepik {
+    text-align: center;
+  }
   .hero__left {
     width: 100%;
     margin-top: 0;
@@ -386,6 +389,9 @@
   .hero__profession {
     margin-bottom: 30px;
     font-size: 18px;
+  }
+  .hero__freepik {
+    text-align: center;
   }
   .hero__img {
     width: 65%;
