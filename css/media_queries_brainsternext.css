@@ -25,8 +25,7 @@
     font-size: 16px;
   }
   .heroV__left {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 10px;
   }
   .heroV__imagesL, .heroV__imagesR {
@@ -43,8 +42,7 @@
     width: 300px;
   }
   .intro__firstSection {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .intro__leftFS {
@@ -83,11 +81,8 @@
     margin-right: -4px;
   }
   .intro__process {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 9px;
     font-size: 12px;
   }
@@ -95,8 +90,7 @@
     width: 300px;
   }
   .analysis__first {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .analysis__title {
     margin-bottom: 10px;
@@ -203,7 +197,6 @@
     font-size: 16px;
   }
 }
-
 @media (min-width: 441px) and (max-width: 650px) {
   .backtotop {
     display: none;
@@ -231,8 +224,7 @@
     font-size: 20px;
   }
   .heroV__left {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     gap: 10px;
   }
@@ -250,8 +242,7 @@
     width: 400px;
   }
   .intro__firstSection {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .intro__leftFS {
@@ -290,11 +281,8 @@
     margin-right: -4px;
   }
   .intro__process {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 9px;
     font-size: 14px;
   }
@@ -302,8 +290,7 @@
     width: 400px;
   }
   .analysis__first {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .analysis__title {
     margin-bottom: 10px;
@@ -398,7 +385,6 @@
     font-size: 16px;
   }
 }
-
 @media (min-width: 651px) and (max-width: 840px) {
   .heroV {
     width: 600px;
@@ -556,7 +542,6 @@
     font-size: 16px;
   }
 }
-
 @media (min-width: 841px) and (max-width: 1024px) {
   .heroV {
     width: 800px;
@@ -711,7 +696,6 @@
     font-size: 20px;
   }
 }
-
 @media (min-width: 1025px) and (max-width: 1600px) {
   .heroV {
     width: 800px;
@@ -867,7 +851,6 @@
     font-size: 20px;
   }
 }
-
 @media (min-width: 1601px) and (max-width: 1919px) {
   .heroV__logo {
     margin-bottom: 40px;
@@ -971,5 +954,4 @@
   .conclusion__img {
     width: 50%;
   }
-}
-/*# sourceMappingURL=media_queries_brainsternext.css.map */
+}/*# sourceMappingURL=media_queries_brainsternext.css.map */

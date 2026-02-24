@@ -4,11 +4,9 @@
   }
   .navMobile {
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: left;
     font-size: 26px;
     background-color: #121212;
@@ -21,14 +19,12 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
          user-select: none;
   }
   .menuToggle a {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
   .menuToggle input {
@@ -39,10 +35,8 @@
     top: -7px;
     left: -5px;
     cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
   .menuToggle span {
@@ -54,39 +48,29 @@
     background: #fce762;
     border-radius: 3px;
     z-index: 1;
-    -webkit-transform-origin: 4px 0px;
-            transform-origin: 4px 0px;
-    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menuToggle span:first-child {
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
   .menuToggle span:nth-last-child(2) {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
   }
   .menuToggle input:checked ~ span {
     opacity: 1;
-    -webkit-transform: rotate(45deg) translate(-2px, -1px);
-            transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-            transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2);
   }
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    -webkit-transform: rotate(-45deg) translate(0, -1px);
-            transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px);
   }
   .menuToggle input:checked ~ ul {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .menu {
     position: absolute;
@@ -97,14 +81,9 @@
     background: #121212;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menu .navigation_li {
     padding: 10px 0;
@@ -116,12 +95,10 @@
     text-align: center;
   }
   .hero__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .hero__name {
     width: 100%;
@@ -169,8 +146,7 @@
     width: 70%;
   }
   .aboutme__first {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 1px;
   }
   .aboutme__leftF {
@@ -190,8 +166,7 @@
     font-size: 14px;
   }
   .aboutme__second {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 6px;
   }
@@ -209,9 +184,7 @@
   }
   .aboutme__skills {
     gap: 0;
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
-            align-items: normal;
+    align-items: normal;
   }
   .aboutme__s {
     font-size: 14px;
@@ -230,9 +203,7 @@
     width: 80%;
   }
   .projects__content {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 10px;
   }
   .contact {
@@ -242,8 +213,7 @@
     font-size: 18px;
   }
   .contact__dis {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 30px;
   }
   .contact__title1 {
@@ -256,18 +226,15 @@
     font-size: 14px;
   }
 }
-
 @media (min-width: 441px) and (max-width: 650px) {
   .navigation {
     display: none;
   }
   .navMobile {
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: left;
     font-size: 26px;
     background-color: #121212;
@@ -280,14 +247,12 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
          user-select: none;
   }
   .menuToggle a {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
   .menuToggle input {
@@ -298,10 +263,8 @@
     top: -7px;
     left: -5px;
     cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
   .menuToggle span {
@@ -313,39 +276,29 @@
     background: #fce762;
     border-radius: 3px;
     z-index: 1;
-    -webkit-transform-origin: 4px 0px;
-            transform-origin: 4px 0px;
-    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menuToggle span:first-child {
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
   .menuToggle span:nth-last-child(2) {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
   }
   .menuToggle input:checked ~ span {
     opacity: 1;
-    -webkit-transform: rotate(45deg) translate(-2px, -1px);
-            transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-            transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2);
   }
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    -webkit-transform: rotate(-45deg) translate(0, -1px);
-            transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px);
   }
   .menuToggle input:checked ~ ul {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .menu {
     position: absolute;
@@ -356,14 +309,9 @@
     background: #121212;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menu .navigation_li {
     padding: 10px 0;
@@ -375,12 +323,10 @@
     text-align: center;
   }
   .hero__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .hero__name {
     width: 100%;
@@ -450,9 +396,7 @@
   }
   .aboutme__skills {
     gap: 0;
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
-            align-items: normal;
+    align-items: normal;
   }
   .aboutme__s {
     font-size: 15px;
@@ -465,9 +409,7 @@
     font-size: 18px;
   }
   .projects__content {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 45px;
   }
   .contact {
@@ -486,18 +428,15 @@
     font-size: 18px;
   }
 }
-
 @media (min-width: 651px) and (max-width: 840px) {
   .navigation {
     display: none;
   }
   .navMobile {
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: left;
     font-size: 26px;
     background-color: #121212;
@@ -510,14 +449,12 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
          user-select: none;
   }
   .menuToggle a {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
   .menuToggle input {
@@ -528,10 +465,8 @@
     top: -7px;
     left: -5px;
     cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
   .menuToggle span {
@@ -543,39 +478,29 @@
     background: #fce762;
     border-radius: 3px;
     z-index: 1;
-    -webkit-transform-origin: 4px 0px;
-            transform-origin: 4px 0px;
-    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menuToggle span:first-child {
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
   .menuToggle span:nth-last-child(2) {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
   }
   .menuToggle input:checked ~ span {
     opacity: 1;
-    -webkit-transform: rotate(45deg) translate(-2px, -1px);
-            transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-            transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2);
   }
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    -webkit-transform: rotate(-45deg) translate(0, -1px);
-            transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px);
   }
   .menuToggle input:checked ~ ul {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .menu {
     position: absolute;
@@ -586,14 +511,9 @@
     background: #121212;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menu .navigation_li {
     padding: 10px 0;
@@ -686,15 +606,12 @@
     font-size: 20px;
   }
 }
-
 @media (min-width: 841px) and (max-width: 1024px) {
   .navMobile {
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: left;
     font-size: 26px;
     background-color: #121212;
@@ -707,14 +624,12 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
          user-select: none;
   }
   .menuToggle a {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
   }
   .menuToggle input {
@@ -725,10 +640,8 @@
     top: -7px;
     left: -5px;
     cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
   .menuToggle span {
@@ -740,39 +653,29 @@
     background: #fce762;
     border-radius: 3px;
     z-index: 1;
-    -webkit-transform-origin: 4px 0px;
-            transform-origin: 4px 0px;
-    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menuToggle span:first-child {
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
   }
   .menuToggle span:nth-last-child(2) {
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
   }
   .menuToggle input:checked ~ span {
     opacity: 1;
-    -webkit-transform: rotate(45deg) translate(-2px, -1px);
-            transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
   }
   .menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-            transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2);
   }
   .menuToggle input:checked ~ span:nth-last-child(2) {
-    -webkit-transform: rotate(-45deg) translate(0, -1px);
-            transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px);
   }
   .menuToggle input:checked ~ ul {
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .menu {
     position: absolute;
@@ -783,14 +686,9 @@
     background: #121212;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   .menu .navigation_li {
     padding: 10px 0;
@@ -879,7 +777,6 @@
     font-size: 30px;
   }
 }
-
 @media (min-width: 1025px) and (max-width: 1600px) {
   .navigation {
     font-size: 20px;
@@ -973,7 +870,6 @@
     font-size: 30px;
   }
 }
-
 @media (min-width: 1601px) and (max-width: 1919px) {
   .navigation {
     font-size: 26px;
@@ -981,5 +877,4 @@
   .navigation__li {
     margin-left: 10px;
   }
-}
-/*# sourceMappingURL=media_queries.css.map */
+}/*# sourceMappingURL=media_queries.css.map */
